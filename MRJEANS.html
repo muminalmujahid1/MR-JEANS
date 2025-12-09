@@ -59,7 +59,7 @@ footer{margin:24px 0;text-align:center;color:var(--muted);font-size:14px}
 <body data-theme="light">
 <header>
 <div style="display:flex;align-items:center;gap:12px">
-<img src="https://i.postimg.cc/0jCQ1VZQ/592061506-2580933775608998-3460064544924053926-n.jpg" alt="logo" style="width:88px;height:88px;border-radius:50px">
+<img src="https://i.postimg.cc/3JHb4B7Y/Untitled-design-(3).png" alt="logo" style="width:88px;height:88px;border-radius:50px">
 <div>
 <h1 style="margin:0;font-size:40px">MRJEANS</h1>
 <div class="muted" style="margin:0;font-size:20px">unlimited products</div>
@@ -143,11 +143,38 @@ footer{margin:24px 0;text-align:center;color:var(--muted);font-size:14px}
 </footer>
 
 <script>
-const WHATSAPP_NUMBER='8801841853638';
-const SAMPLE_PRODUCTS=[];
-for(let i=1;i<=40;i++){
-  SAMPLE_PRODUCTS.push({id:'p'+i,title:'Product '+i,price:Math.floor(Math.random()*3000)+100,img:'https://picsum.photos/seed/p'+i+'/400/300',desc:'This is the detailed description of Product '+i});
-}
+const WHATSAPP_NUMBER='8801984711385';
+const SAMPLE_PRODUCTS = [
+  {
+    id: "p1",
+    title: "Pent",
+    price: 1200,
+    img: "https://i.postimg.cc/mgfCjXkp/Gemini-Generated-Image-2zfhjy2zfhjy2zfh.png/400/300", 
+    desc: "High quality denim pent — comfortable and stylish."
+  },
+  {
+    id: "p2",
+    title: "Premium Jeans",
+    price: 1400,
+    img: "https://i.postimg.cc/mgfCjXkp/Gemini-Generated-Image-2zfhjy2zfhjy2zfh.png/400/300",
+    desc: "Premium fit jeans with soft fabric."
+  },
+  {
+    id: "p3",
+    title: "Black Denim",
+    price: 1100,
+    img: "https://i.postimg.cc/wvpsc7B7/Gemini-Generated-Image-ij1jcaij1jcaij1j.png/400/300",
+    desc: "Classic black denim, durable and stylish."
+  },
+  {
+    id: "p4",
+    title: "Slim Fit Jeans",
+    price: 1350,
+    img: "https://i.postimg.cc/vHgHTGQk/Gemini-Generated-Image-lb9qlvlb9qlvlb9q.png/400/300",
+    desc: "Slim fit stretchable denim for everyday wear."
+  },
+];
+
 
 let CART=[];
 const productsEl=document.getElementById('products');
